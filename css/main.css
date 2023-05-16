@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    text-align: left;
     margin: 0;
     background-color:aliceblue;
 }
@@ -20,7 +20,7 @@ body{
     width: 50%;
     height: 34rem;
     float: left;
-    padding-right: 60px;
+    padding-right: 40px;
     margin-top: 20px;
 }
 
@@ -28,7 +28,6 @@ body{
     background: white;
     height: 34rem;
     width: 105%;
-    
 }
 
 .cont{
