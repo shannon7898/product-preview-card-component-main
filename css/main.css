@@ -5,11 +5,22 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/*the backdrop contains the image as well as the information about the product*/
 .backdrop{
     background-color: hsl(32, 86%, 95%);
     margin: 10rem;
+    width: fit-content;
+    margin-left: 500px;
 }
+
 .scent-img{
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: auto;
+    float: left;
+    padding-right: 60px;
+}
+
+.info{
+    height: 34rem;
+    width: 60rem;
 }
