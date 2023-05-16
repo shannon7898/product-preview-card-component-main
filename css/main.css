@@ -7,6 +7,7 @@ body{
 
 .backdrop{
     background-color: hsl(32, 86%, 95%);
+    margin: 10rem;
 }
 .scent-img{
     width: 200px;
