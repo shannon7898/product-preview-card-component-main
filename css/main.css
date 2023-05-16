@@ -1,4 +1,6 @@
 body{
+    text-align: center;
+    margin: 0;
     background-color:aliceblue;
 }
 .attribution { font-size: 11px; text-align: center; }
@@ -7,20 +9,28 @@ body{
 
 /*the backdrop contains the image as well as the information about the product*/
 .backdrop{
+    display: block;
     background-color: hsl(32, 86%, 95%);
-    margin: 10rem;
+    margin: 100px auto 100px auto;
     width: fit-content;
-    margin-left: 500px;
+    position: relative;
 }
 
 .scent-img{
-    width: 400px;
-    height: auto;
+    width: 50%;
+    height: 34rem;
     float: left;
     padding-right: 60px;
+    margin-top: 20px;
 }
 
 .info{
+    background: white;
     height: 34rem;
-    width: 60rem;
+    width: 105%;
+    
+}
+
+.cont{
+    padding: 20%;
 }
