@@ -25,22 +25,23 @@ h1 {
     position: relative;
 }
 
-.cont{
+.con{
     padding: 20%;
+    width: 60%;
 }
 
 /*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
-.scent-img{
-    width: 50%;
-    height: 34rem;
+.bottle-img{
+    /*width: 50%;
+    height: 34rem;*/
+    max-inline-size: 235px;
     float: left;
     padding-right: 40px;
-    margin-top: 15px;
-    /*max-inline-size: 100%;
-    block-size: auto;*/
+    margin-top: 20px;
+    /*block-size: auto;*/
 }
 
-.info{
+.info-con{
     background: white;
     height: 34rem;
     width: 105%;
