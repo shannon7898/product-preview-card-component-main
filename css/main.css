@@ -1,11 +1,11 @@
 @media (max-width: 375px) {
-body{
-    text-align: left;
-    margin: 0;
-    background-color:aliceblue;
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;
-}
+    body{
+        text-align: left;
+        margin: 0;
+        background-color:aliceblue;
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+    }
 }
 
 h1 {
@@ -29,6 +29,7 @@ h1 {
     padding: 20%;
 }
 
+/*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
 .scent-img{
     width: 50%;
     height: 34rem;
