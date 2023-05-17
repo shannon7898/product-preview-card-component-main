@@ -1,9 +1,11 @@
+@media (max-width: 375px) {
 body{
     text-align: left;
     margin: 0;
     background-color:aliceblue;
     font-family: 'Montserrat', sans-serif;
     font-size: small;
+}
 }
 
 h1 {
