@@ -16,6 +16,10 @@ body{
     position: relative;
 }
 
+.cont{
+    padding: 20%;
+}
+
 .scent-img{
     width: 50%;
     height: 34rem;
@@ -30,6 +34,3 @@ body{
     width: 105%;
 }
 
-.cont{
-    padding: 20%;
-}
