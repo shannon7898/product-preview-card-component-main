@@ -2,7 +2,6 @@
     body{
         text-align: left;
         margin: 0;
-        background-color:aliceblue;
         font-family: 'Montserrat', sans-serif;
         font-size: small;
     }
@@ -18,16 +17,18 @@ h1 {
 
 /*the backdrop contains the image as well as the information about the product*/
 .backdrop{
-    display: block;
-    background-color: hsl(32, 86%, 95%);
-    margin: 100px auto 100px auto;
-    width: fit-content;
-    position: relative;
+   
 }
 
 .con{
     padding: 20%;
-    width: 60%;
+   
+    display: block;
+    /*background-color: hsl(32, 86%, 95%);*/
+    background-color: darkgoldenrod;
+    margin: 100px auto 100px auto;
+    
+    position: relative;
 }
 
 /*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
@@ -42,8 +43,10 @@ h1 {
 }
 
 .info-con{
-    background: white;
+    /*background: aliceblue;*/
+    background-color: cadetblue;
     height: 34rem;
     width: 105%;
+    border-radius: 25px;
 }
 
