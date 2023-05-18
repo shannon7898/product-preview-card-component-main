@@ -1,8 +1,74 @@
 body{
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: small;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
+
+.main-con {
+    background-color: darkgoldenrod;
+    max-width: 1000px;
+    display: flex;
+}
+
+.main-con > div{
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.img3 {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: block;
+    }
+}
+
+
+
+
+/* .con{
+    
+    max-width: 1000px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.con > div{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.desktop-img{
+    display: none;
+}
+
+.mobile-img{
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+    }
+} */
 
 h1 {
     font-family: 'Fraunces', serif;
@@ -11,37 +77,3 @@ h1 {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/*the backdrop contains the image as well as the information about the product*/
-.con{
-    display: block;
-    background-color: darkgoldenrod;
-    position: relative;
-}
-
-/* .info-con{
-    background-color: cadetblue;
-    border-radius: 25px;
-    height: 500px;
-    width: 500px;
-    position: sticky;
-} */
-
-/*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
-
-.desktop-img{
-    display: none;
-}
-
-@media screen and (min-width: 500px) {
-    .desktop-img{
-        display: block;
-    }
-
-    .mobile-img{
-        display: none;
-    }
-}
-
-
-
