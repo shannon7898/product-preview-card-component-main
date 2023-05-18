@@ -1,5 +1,4 @@
 <!--use other image for the mobile view-->
-<!--how to use image 1 for the desktop view and image 2 for the mobile view-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,9 +17,16 @@
 
 </head>
 <body>
-    <div class="con"> <!--round boarder for entire div-->
-      <div class="info-con">
-        <img class="bottle-img" src="images/image-product-desktop.jpg" alt=""> 
+    <div class="con"> 
+      <div class="info-con"><!--round boarder for entire div-->
+        <!--<picture>
+          <source media="(max-width:1440px)" srcset="desktop-image-product.jpg">
+          <source media="(min-width:375px) and (max-width:768px)" srcset="mobile-image-product.jpg">
+          <img src="desktop-image-product.jpg" alt="picture-description">
+      </picture>-->
+      
+      <img class="desktop-img" src="images/desktop-image-product.jpg">
+
         <h3>PERFUME</h3>
         <h1>Gabrielle Essence Eau De Parfum</h1>  
         <!--centre align text and fix font-->

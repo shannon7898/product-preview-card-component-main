@@ -1,10 +1,7 @@
-@media (max-width: 375px) {
-    body{
-        text-align: left;
-        margin: 0;
-        font-family: 'Montserrat', sans-serif;
-        font-size: small;
-    }
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 h1 {
@@ -16,37 +13,30 @@ h1 {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /*the backdrop contains the image as well as the information about the product*/
-.backdrop{
-   
-}
-
 .con{
-    padding: 20%;
-   
     display: block;
     /*background-color: hsl(32, 86%, 95%);*/
     background-color: darkgoldenrod;
-    margin: 100px auto 100px auto;
-    
     position: relative;
-}
-
-/*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
-.bottle-img{
-    /*width: 50%;
-    height: 34rem;*/
-    max-inline-size: 235px;
-    float: left;
-    padding-right: 40px;
-    margin-top: 20px;
-    /*block-size: auto;*/
 }
 
 .info-con{
     /*background: aliceblue;*/
     background-color: cadetblue;
-    height: 34rem;
-    width: 105%;
     border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    position: sticky;
 }
 
+/*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
+
+.desktop-img{
+    max-inline-size: 235px;
+    float: left;
+    padding-right: 40px;
+}
+
+/*.mobile-img{
+
+}*/
