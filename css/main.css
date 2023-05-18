@@ -15,28 +15,33 @@ h1 {
 /*the backdrop contains the image as well as the information about the product*/
 .con{
     display: block;
-    /*background-color: hsl(32, 86%, 95%);*/
     background-color: darkgoldenrod;
     position: relative;
 }
 
-.info-con{
-    /*background: aliceblue;*/
+/* .info-con{
     background-color: cadetblue;
     border-radius: 25px;
     height: 500px;
     width: 500px;
     position: sticky;
-}
+} */
 
 /*resize image to cater for responsive page - check for correct specs to work with responsive pages*/
 
 .desktop-img{
-    max-inline-size: 235px;
-    float: left;
-    padding-right: 40px;
+    display: none;
 }
 
-/*.mobile-img{
+@media screen and (min-width: 500px) {
+    .desktop-img{
+        display: block;
+    }
 
-}*/
+    .mobile-img{
+        display: none;
+    }
+}
+
+
+
