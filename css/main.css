@@ -12,7 +12,7 @@ body {
     display: flex;
 }
 
-.main-con > div {
+.main-con > img-con {
     width: 50%;
 }
 
@@ -36,6 +36,10 @@ img {
     .img3 {
         display: none;
     }
+
+    .info-con {
+        
+    }
 }
 
 h1 {
@@ -45,3 +49,28 @@ h1 {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.price-cut {
+    text-decoration: line-through;
+}
+
+.price {
+    color: #0f9e76;
+}
+
+.btn {
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0f9e76;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #005e43;
+    text-decoration: none;
+}
