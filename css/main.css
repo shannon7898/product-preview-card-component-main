@@ -59,15 +59,16 @@ h1 {
 }
 
 .btn {
-    -webkit-border-radius: 34;
-    -moz-border-radius: 34;
-    border-radius: 34px;
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 21px;
     background: #0f9e76;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    width: max-content;
 }
 
 .btn:hover {
